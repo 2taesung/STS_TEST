@@ -1,0 +1,35 @@
+# gitignore
+## if not operate: git rm -r --cached .
+
+### Django ###
+__pycache__/
+db.sqlite3
+media
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### secret setting ###
+my_settings.py
+
+### vscode setting ###
+.vscode
+node_modules
+
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
